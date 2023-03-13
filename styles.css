@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+main {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #d7dadb;
+  box-shadow: 10px 10px 10px -10px #111;
+}
+.s-Navbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-Navbar__list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.s-Navbar__listItem {
+  font-size: 14px;
+  font-weight: bold;
+}
+.s-Text {
+  font-weight: bold;
+  font-size: 14px;
+}
+svg {
+  height: 28px;
+  width: 28px;
+}
+.s-Divider {
+  background-color: #d7dadb;
+  height: 30px;
+  width: 1px;
+}
+
+.s-Navbar__allProgrammes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.s-Live {
+  fill: #ed0e05;
+}
+.s-Live__text {
+  color: #ed0e05;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
